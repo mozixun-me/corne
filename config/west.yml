@@ -2,12 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: infused-kim
-      url-base: https://github.com/infused-kim
+    - name: nvhung9
+      url-base: https://github.com/nvhung9
   projects:
     - name: zmk
-      remote: infused-kim
-      revision: sofle
+      remote: nvhung9
+      revision: main
       import: app/west.yml
   self:
     path: config
