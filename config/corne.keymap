@@ -160,6 +160,12 @@
       timeout-ms = <50>;
       layers = <0 1 2 3 4 6>;
     };
+
+    tab {
+      bindings = <&kp TAB>;
+      key-positions = <0 1>;
+      slow-release;
+    };
   };
 
   macros {
